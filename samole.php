@@ -5,6 +5,12 @@ $username = "root";
 $dbpass = "";
 
 
+
+
+
+
+
+
 $conn = mysqli_connect($host,$username,$dbpass, $dbname);
 
 
