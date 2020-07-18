@@ -5,12 +5,15 @@ $username = "root";
 $dbpass = "";
 
 
+<<<<<<< HEAD
 
 
 
 
 
 
+=======
+>>>>>>> 97f9ea5... Test
 $conn = mysqli_connect($host,$username,$dbpass, $dbname);
 
 
@@ -24,4 +27,8 @@ $query = "SELECT * from test2";
 mysqli_query($conn,$query);
 $total_columns = mysqli_fetch_all($conn);
 echo $total_columns;
+<<<<<<< HEAD
 mysqli_close($conn);
+=======
+mysqli_close($conn);
+>>>>>>> 97f9ea5... Test
